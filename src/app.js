@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Ruta de ejemplo
-app.get('/', (req, res) => {
+app.get('/as', (req, res) => {
   res.status(200).json({ message: 'Hello World' });
 });
 
